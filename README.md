@@ -1,7 +1,9 @@
 # Django-CRM
-Basic CRUD website built with Django and Bootstap .
-it helps you store and manipulate your records easily and quickly.
-it was made for training purpose .
+Basic CRUD website built with Django and Bootstrap .
+<br>
+It helps you store and manipulate your records easily and quickly.
+<br>
+It was made for training purpose .
 
 ## Table of Contents
   - [Table of Contents](#table-of-contents)
