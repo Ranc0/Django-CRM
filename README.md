@@ -77,24 +77,23 @@ Before you use this webiste, you need to have:
     ```shell
       pip install -r requirements.txt
     ```
-4. move to the main project directory:
+4. get your secret key by typing this in shell:
 
     ```shell
-     cd dcrm
+     from django.core.management.utils import get_random_secret_key
+     get_random_secret_key() 
     ```
-5. make the migrations needed
-    ```shell
-     python manage.py makemigrations
-    ```
-6. apply the migrations 
-    ```shell
-     python manage.py migrate
-    ```
-7. run the server on your localhost 
+5. copy your secret key
+
+6. open settings.py file in dcrm folder and update the sercet key with your new one
+
+7. make sure your cmd path is in the root directory ( where you can see manage.py) 
+
+8. run the server on your localhost 
     ```shell
      python manage.py runserver
     ```
-8. open the website in your browser by typing this in url :
+9. open the website in your browser by typing this in url :
     ```
     localhost:8000
     ```
